@@ -1,6 +1,6 @@
 {
   "name": "util-console.log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A configurable, light console.log enhancer using: chalk, moment, util",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,9 @@
     "file"
   ],
   "author": "Marius Ciotlos <ciotlos@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ciotlosm/util-console.log.git"
+  }
 }
