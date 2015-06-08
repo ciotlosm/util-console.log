@@ -18,5 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ciotlosm/util-console.log.git"
+  },
+  "dependencies": {
+    "chalk": "1.0.x",
+    "moment": "2.10.x"
   }
 }
