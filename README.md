@@ -4,7 +4,7 @@ A configurable, light console.log enhancer using: chalk, moment, util, packed as
 
 ## Installation
 
-**npm**: `npm install consoutil-console.loglelog`
+**npm**: `npm install util-console.log`
 
 ## Usage
 
