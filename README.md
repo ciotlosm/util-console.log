@@ -45,3 +45,11 @@ config = {
     + Set to true if you want to inject the severity level in your log entry. console.warn('messages') will output '[warn] message'
 - `formatter` (Function)
     + Add a function to change the message format. By default a moment timestamp is added in front. Please note that this is applied after inject_level.
+	
+### Notes
+
+This module was writted in TypeScript and then compiled. On GitHub you can find all sources, including the typescript file. 
+
+### Credits
+
+I have to mention [log-prefix](https://www.npmjs.com/package/log-prefix) and [log-timestamp](https://www.npmjs.com/package/log-timestamp) for inspiration on gettings this module done. Unfortunately I could not relay on any of them to be able to create this lightweight and integrated as I wanted. 
