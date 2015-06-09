@@ -10,6 +10,24 @@ A configurable, light console.log enhancer using: chalk, moment, util, packed as
 
 Use `console.log()`, `console.debug()`, `console.error()` or whatever you previously used to generate your log messages. 
 
+### Examples
+
+TypeScript
+```js
+import utilconsole = require('util-console.log');
+utilconsole.configure({ inject_level: true });
+console.error("This is an error");
+```
+
+JavaScript / ECMAScript
+```js
+var utilconsole = require('util-console.log');
+utilconsole.configure({ inject_level: true });
+console.error("This is an error");
+```
+
+Output: `[15-06-09 10:25:11.388] [error] This is an error`
+
 ### Settings
 
 You can change some optional preferences by passing an object via `configure()` interface. The defaults are shown below.
@@ -45,7 +63,7 @@ config = {
     + Set to true if you want to inject the severity level in your log entry. console.warn('messages') will output '[warn] message'
 - `formatter` (Function)
     + Add a function to change the message format. By default a moment timestamp is added in front. Please note that this is applied after inject_level.
-	
+
 ### Notes
 
 This module was writted in TypeScript and then compiled. On GitHub you can find all sources, including the typescript file. 

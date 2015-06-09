@@ -11,7 +11,11 @@
     "node",
     "chalk",
     "moment",
-    "file"
+    "file",
+    "console",
+    "typescript",
+    "util",
+    "log"
   ],
   "author": "Marius Ciotlos <ciotlos@gmail.com>",
   "license": "ISC",
