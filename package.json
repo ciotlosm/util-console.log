@@ -1,6 +1,6 @@
 {
   "name": "util-console.log",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A configurable, light console.log enhancer using: chalk, moment, util",
   "main": "index.js",
   "scripts": {
